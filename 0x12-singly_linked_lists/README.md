@@ -1,56 +1,69 @@
-0x12. C - Singly linked lists
-C
-Algorithm
-Data structure
- By: Julien Barbier
- Weight: 1
- Project will start Nov 16, 2023 6:00 AM, must end by Nov 17, 2023 6:00 AM
- Checker will be released at Nov 16, 2023 12:00 PM
- An auto review will be launched at the deadline
-Concepts
+# 0x12. C - Singly linked lists
+`C`
+`Algorithm`
+`Data structure`
+
+  
+| By: Julien Barbier         |
+| :------------------------- |
+| Weight: 1                  |
+|An auto review will be launched at the deadline|
+
+**in a nutshell...**
+
+- **Auto QA review**: 43.0/43 mandatory & 12.0/12 optional
+- **Altogether:  200.0%**
+   - Mandatory: 100.0%
+   - Optional: 100.0%
+   - Calculation:  100.0% + (100.0% * 100.0%)  == **200.0%**
+
+### Concepts
 For this project, we expect you to look at this concept:
 
-Data Structures
+- [Data Structures](https://intranet.alxswe.com/concepts/120)
 
+![App Screenshot](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/229/giphy-3.gif)
+## Resources
+**Read or watch:**
 
-Resources
-Read or watch:
+- [Linked Lists](https://intranet.alxswe.com/rltoken/joxg32-tt4lUh8Afgst8tA)
+- [Google](https://intranet.alxswe.com/rltoken/USaZbNdfcuIFII-K2YPsKQ)
+- [Youtube](https://intranet.alxswe.com/rltoken/epKUCIcoA6XaN1T3Vtr_9w)
 
-Linked Lists
-Google
-Youtube
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+## Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/xtUoOGrH_fQu_r19q1Tivw), without the help of Google:
 
-General
-When and why using linked lists vs arrays
-How to build and use linked lists
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You are not allowed to use global variables
-No more than 5 functions per file
-The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc etc… is forbidden
-You are allowed to use _putchar
-You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
-In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called lists.h
-Don’t forget to push your header file
-All your header files should be include guarded
-More Info
+### General
+- When and why using linked lists vs arrays
+- How to build and use linked lists
+
+### Copyright - Plagiarism
+- You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+- You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+- You are not allowed to publish any content of this project.
+- Any form of plagiarism is strictly forbidden and will result in removal from the program.
+
+## Requirements
+### General
+- Allowed editors: vi, vim, emacs
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project is mandatory
+- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+- You are not allowed to use global variables
+- No more than 5 functions per file
+- The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc etc… is forbidden
+- You are allowed to use _putchar
+- You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
+- In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+- The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called lists.h
+- Don’t forget to push your header file
+- All your header files should be include guarded
+
+## More Info
 Please use this data structure for this project:
 
-
-Explain
+```
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
@@ -65,20 +78,21 @@ typedef struct list_s
     unsigned int len;
     struct list_s *next;
 } list_t;
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
-Tasks
-0. Print list
-mandatory
-Write a function that prints all the elements of a list_t list.
+```
 
-Prototype: size_t print_list(const list_t *h);
-Return: the number of nodes
-Format: see example
-If str is NULL, print [0] (nil)
-You are allowed to use printf
+## Tasks
+## 0. Print list
+`mandatory`
 
-Explain
+Write a function that prints all the elements of a `list_t` list.
+
+- Prototype: `size_t print_list(const list_t *h);`
+- Return: the number of nodes
+- Format: see example
+- If `str` is `NULL`, print `[0] (nil)`
+- You are allowed to use printf
+
+```
 julien@ubuntu:~/0x12. Singly linked lists$ cat 0-main.c
 #include <stdlib.h>
 #include <string.h>
@@ -130,19 +144,22 @@ julien@ubuntu:~/0x12. Singly linked lists$ ./a
 [5] World
 -> 2 elements
 julien@ubuntu:~/0x12. Singly linked lists$ 
-Repo:
+```
 
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 0-print_list.c
-  
-1. List length
-mandatory
-Write a function that returns the number of elements in a linked list_t list.
+**Repo:**
 
-Prototype: size_t list_len(const list_t *h);
+- GitHub repository: `alx-low_level_programming`
+- Directory: `0x12-singly_linked_lists`
+- File: `0-print_list.c`
+    
+## 1. List length
+`mandatory`
 
-Explain
+Write a function that returns the number of elements in a linked `list_t` list.
+
+Prototype: `size_t list_len(const list_t *h);`
+
+```
 julien@ubuntu:~/0x12. Singly linked lists$ cat 1-main.c
 #include <stdlib.h>
 #include <string.h>
@@ -182,22 +199,25 @@ julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -
 julien@ubuntu:~/0x12. Singly linked lists$ ./b 
 -> 2 elements
 julien@ubuntu:~/0x12. Singly linked lists$ 
-Repo:
+```
 
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 1-list_len.c
-  
-2. Add node
-mandatory
-Write a function that adds a new node at the beginning of a list_t list.
+**Repo:**
 
-Prototype: list_t *add_node(list_t **head, const char *str);
-Return: the address of the new element, or NULL if it failed
-str needs to be duplicated
-You are allowed to use strdup
+- GitHub repository: `alx-low_level_programming`
+- Directory: `0x12-singly_linked_lists`
+- File: `1-list_len.c`
+    
+## 2. Add node
+`mandatory`
 
-Explain
+Write a function that adds a new node at the beginning of a `list_t` list.
+
+Prototype: `list_t *add_node(list_t **head, const char *str);`
+Return: the address of the new element, or `NULL` if it failed
+`str` needs to be duplicated
+You are allowed to use `strdup`
+
+```
 julien@ubuntu:~/0x12. Singly linked lists$ cat 2-main.c
 #include <stdlib.h>
 #include <string.h>
@@ -276,22 +296,25 @@ julien@ubuntu:~/0x12. Singly linked lists$ ./c
 [5] Asaia
 [9] Alexandro
 julien@ubuntu:~/0x12. Singly linked lists$ 
-Repo:
+```
 
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 2-add_node.c
-  
-3. Add node at the end
-mandatory
-Write a function that adds a new node at the end of a list_t list.
+**Repo:**
 
-Prototype: list_t *add_node_end(list_t **head, const char *str);
-Return: the address of the new element, or NULL if it failed
-str needs to be duplicated
-You are allowed to use strdup
+- GitHub repository: alx-low_level_programming
+- Directory: 0x12-singly_linked_lists
+- File: 2-add_node.c
+    
+## 3. Add node at the end
+`mandatory`
 
-Explain
+Write a function that adds a new node at the end of a `list_t` list.
+
+- Prototype: `list_t *add_node_end(list_t **head, const char *str);`
+- Return: the address of the new element, or `NULL` if it failed
+- `str` needs to be duplicated
+- You are allowed to use `strdup`
+
+```
 julien@ubuntu:~/0x12. Singly linked lists$ cat 3-main.c
 #include <stdlib.h>
 #include <string.h>
@@ -370,19 +393,22 @@ julien@ubuntu:~/0x12. Singly linked lists$ ./d
 [6] Victor
 [6] Walton
 julien@ubuntu:~/0x12. Singly linked lists$ 
-Repo:
+```
 
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 3-add_node_end.c
-  
-4. Free list
-mandatory
-Write a function that frees a list_t list.
+**Repo:**
 
-Prototype: void free_list(list_t *head);
+- GitHub repository: `alx-low_level_programming`
+- Directory: `0x12-singly_linked_lists`
+- File: `3-add_node_end.c`
+    
+## 4. Free list
+`mandatory`
 
-Explain
+Write a function that frees a `list_t` list.
+
+- Prototype: `void free_list(list_t *head);`
+
+```
 julien@ubuntu:~/0x12. Singly linked lists$ cat 4-main.c
 #include <stdlib.h>
 #include <string.h>
@@ -431,21 +457,22 @@ julien@ubuntu:~/0x12. Singly linked lists$ valgrind ./e
 ==3598== For counts of detected and suppressed errors, rerun with: -v
 ==3598== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 julien@ubuntu:~/0x12. Singly linked lists$ 
-Repo:
+```
 
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 4-free_list.c
-  
-5. The Hare and the Tortoise
-#advanced
+**Repo:**
 
+- GitHub repository: `alx-low_level_programming`
+- Directory: `0x12-singly_linked_lists`
+- File: `4-free_list.c`
+    
+## 5. The Hare and the Tortoise
+`#advanced`
 
-Write a function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
+Write a function that prints `You're beat! and yet, you must allow`,\nI bore my house upon my back!\n before the `main` function is executed.
 
-You are allowed to use the printf function
+- You are allowed to use the `printf` function
 
-Explain
+```
 julien@ubuntu:~/0x12. Singly linked lists$ cat 100-main.c
 #include <stdio.h>
 
@@ -465,25 +492,31 @@ You're beat! and yet, you must allow,
 I bore my house upon my back!
 (A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)
 julien@ubuntu:~/$ 
-Repo:
+```
 
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 100-first.c
-  
-6. Real programmers can write assembly code in any language
-#advanced
-Write a 64-bit program in assembly that prints Hello, Holberton, followed by a new line.
+**Repo:**
 
-You are only allowed to use the printf function
-You are not allowed to use interrupts
-Your program will be compiled using nasm and gcc:
+- GitHub repository: `alx-low_level_programming`
+- Directory: `0x12-singly_linked_lists`
+- File: `100-first.c`
+    
+## 6. Real programmers can write assembly code in any language
+`#advanced`
+
+Write a 64-bit program in assembly that prints `Hello, Holberton`, followed by a new line.
+
+- You are only allowed to use the `printf` function
+- You are not allowed to use interrupts
+- Your program will be compiled using `nasm` and `gcc:`
+
+```
 julien@ubuntu:~/$ nasm -f elf64 101-hello_holberton.asm && gcc -no-pie -std=gnu89 101-hello_holberton.o -o hello
 julien@ubuntu:~/$ ./hello 
 Hello, Holberton
 julien@ubuntu:~/$ 
-Repo:
+```
+**Repo:**
 
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 101-hello_holberton.asm
+- GitHub repository: `alx-low_level_programming`
+- Directory: `0x12-singly_linked_lists`
+- File: `101-hello_holberton.asm`
