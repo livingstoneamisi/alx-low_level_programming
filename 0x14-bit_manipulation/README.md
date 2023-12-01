@@ -412,6 +412,6 @@ julien@ubuntu:~/0x14. Binary$
 
 **Repo:**
 
-GitHub repository: `alx-low_level_programming`
-Directory: `0x14-bit_manipulation`
-File: `101-password`
+- GitHub repository: `alx-low_level_programming`
+- Directory: `0x14-bit_manipulation`
+- File: `101-password`
