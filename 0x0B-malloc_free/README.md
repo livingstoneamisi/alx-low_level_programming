@@ -4,7 +4,6 @@
  |By: Julien Barbier|
  |------
  |Weight: 1|
- 
  |An auto review will be launched at the deadline|
 
 ### In a nutshell…
