@@ -20,7 +20,7 @@ For this project, we expect you to look at these concepts:
 - [C programming](https://intranet.alxswe.com/concepts/26)
 - [Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
 
-![App Screenshot](https://www.youtube.com/watch?v=co0b0xLEuRM&embeds_referring_euri=https%3A%2F%2Fintranet.alxswe.com%2F&feature=emb_imp_woyt)
+[0x00. C - Hello, World](https://www.youtube.com/watch?v=co0b0xLEuRM&embeds_referring_euri=https%3A%2F%2Fintranet.alxswe.com%2F&feature=emb_imp_woyt)
 
 # Resources
 **Read or watch:**
