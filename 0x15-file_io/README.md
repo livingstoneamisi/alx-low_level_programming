@@ -82,7 +82,7 @@ Write a function that reads a text file and prints it to the `POSIX` standard ou
 * if the file can not be opened or read, return `0`
 * if `filename` is `NULL` return `0`
 * if `write` fails or does not write the expected amount of bytes, return `0`
-```bash
+```
 julien@ubuntu:~/0x15. File descriptors and permissions$ cat Requiescat 
 Requiescat
 by Oscar Wilde
@@ -195,7 +195,7 @@ Create a function that creates a file.
 * if `filename` is `NULL` return `-1`
 * if `text_content` is `NULL` create an empty file
 
-```bash
+```
 julien@ubuntu:~/0x15. File descriptors and permissions$ cat 1-main.c
 #include <stdio.h>
 #include <stdlib.h>
@@ -241,7 +241,8 @@ Write a function that appends text at the end of a file.
 * Do not create the file if it does not exist
 * If `filename` is `NULL` return `-1`
 * If `text_content` is `NULL`, do not add anything to the file. Return `1` if the file exists and `-1` if the file does not exist or if you do not have the required permissions to write the file
-```bash
+
+```
 julien@ubuntu:~/0x15. File descriptors and permissions$ cat 2-main.c
 #include <stdio.h>
 #include <stdlib.h>
@@ -299,7 +300,7 @@ where `FD_VALUE` is the value of the file descriptor
 * You must read `1,024` bytes at a time from the `file_from` to make less system calls. Use a buffer
 * You are allowed to use `dprintf`
 
-```bash
+```
 julien@ubuntu:~/0x15. File descriptors and permissions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-cp.c -o cp
 julien@ubuntu:~/0x15. File descriptors and permissions$ cat incitatous 
 Why you should think twice before putting pictures on social media.
@@ -347,7 +348,7 @@ Entry point address
 man `elf`, `readelf`
 
 
-```bash
+```
 julien@ubuntu:~/0x15. File descriptors and permissions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-elf_header.c -o elf_header
 julien@ubuntu:~/0x15. File descriptors and permissions$ ./elf_header ubuntu64 
 ELF Header:
