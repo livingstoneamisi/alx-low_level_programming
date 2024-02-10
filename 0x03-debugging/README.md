@@ -5,6 +5,7 @@
  |Weight: 1|
 
 #Resources
+
 **Read or watch:**
 
 - [Debugging](https://intranet.alxswe.com/rltoken/faGcpiJiejHH6GhqpmbhUw)
