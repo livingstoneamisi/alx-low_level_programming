@@ -1,17 +1,8 @@
 ## 0x02. C - Functions, nested loops
 `C`
  |By: Julien Barbier|
- |-------
- |Weight: 1|
- |An auto review will be launched at the deadline|
-
-
-### In a nutshell…
-- **Auto QA review:** 106.0/106 mandatory & 36.0/36 optional
-- **Altogether:  200.0%**
-    - Mandatory: 100.0%
-    - Optional: 100.0%
-    - Calculation:  100.0% + (100.0% * 100.0%)  == **200.0%**
+ |---------
+ | Weight: 1|
 
 # Resources
 **Read or watch:**
