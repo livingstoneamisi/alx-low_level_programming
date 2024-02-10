@@ -4,7 +4,7 @@
  |------
  |Weight: 1|
 
-#Resources
+# Resources
 
 **Read or watch:**
 
