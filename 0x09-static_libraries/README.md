@@ -3,13 +3,7 @@
  |By: Julien Barbier|
  |-------
  |Weight: 1|
- |An auto review will be launched at the deadline|
 
-### In a nutshell…
-- Auto QA review: 24.0/24 mandatory
-- Altogether:  100.0%
-    - Mandatory: 100.0%
-    - Optional: no optional tasks
 
 ### Concepts
 For this project, we expect you to look at this concept:
