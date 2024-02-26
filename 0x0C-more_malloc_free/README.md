@@ -4,14 +4,6 @@
 |By: Julien Barbier|
 |----
 |Weight: 1|
- |An auto review will be launched at the deadline|
-
-### In a nutshell…
-- **Auto QA review:** 36.0/36 mandatory & 21.0/21 optional
-- **Altogether:  200.0%**
-Mandatory: 100.0%
-Optional: 100.0%
-Calculation:  100.0% + (100.0% * 100.0%)  == **200.0%**
 
 ### Concepts
 
