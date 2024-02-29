@@ -6,14 +6,6 @@
  |By: Julien Barbier|
  |-----
  |Weight: 1|
- |An auto review will be launched at the deadline|
-
-### In a nutshell…
-- **Auto QA review:** 44.0/44 mandatory
-- **Altogether:  100.0%**
-    - Mandatory: 100.0%
-    - Optional: no optional tasks
-
 
 # Resources
 **Read or watch:**
