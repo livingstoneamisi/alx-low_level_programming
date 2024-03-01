@@ -3,14 +3,6 @@
  |By: Alexandre Gautier|
  |---
  |Weight: 1|
- |An auto review will be launched at the deadline|
-
-**In a nutshell…**
-- **Auto QA review:** 39.0/39 mandatory & 7.0/7 optional
-- **Altogether:  200.0%**
-    - Mandatory: 100.0%
-    - Optional: 100.0%
-    - Calculation:  100.0% + (100.0% * 100.0%)  == **200.0%**
 
 # Resources
 **Read or watch:**
