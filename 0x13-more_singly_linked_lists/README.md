@@ -7,15 +7,6 @@
 | By: Julien Barbier         |
 | :------------------------- |
 | Weight: 1                  |
-|An auto review will be launched at the deadline|
-
-**in a nutshell...**
-
-- **Auto QA review**: 90.0/90 mandatory & 35.0/35 optional
-- **Altogether:  200.0%**
-   - Mandatory: 100.0%
-   - Optional: 100.0%
-   - Calculation:  100.0% + (100.0% * 100.0%)  == **200.0%**
 
 ## Resources
 **Read or watch:**
