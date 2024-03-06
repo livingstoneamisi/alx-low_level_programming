@@ -4,15 +4,6 @@
 | By: Julien Barbier         |
 | :------------------------- |
 | Weight: 1                  |
-|An auto review will be launched at the deadline|
-
-**in a nutshell...**
-
-- **Auto QA review**: 55.0/55 mandatory & 6.6/8 optional
-- **Altogether:  182.5%**
-   - Mandatory: 100.0%
-   - Optional: 82.5%
-   - Calculation:  100.0% + (100.0% * 82.5%)  == **182.5%**
 
 ![App Screenshot](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/232/bitwise.PNG)
 
