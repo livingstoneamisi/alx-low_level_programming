@@ -24,3 +24,4 @@
 - Ox18-dynamic_libraries
 - 0x1A-hash_tables
 - 0x1C. C - Makefiles
+- 0x1E-search_algorithms
